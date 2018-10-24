@@ -60,7 +60,8 @@
             $('#bg-body').bcatBGSwitcher({
                 timeout:5000,
                 urls: srcBgArray,
-                alt: 'Full screen background image'
+                alt: 'Full screen background image',
+                speed: 2000, // animation speed
             });
         });
 
